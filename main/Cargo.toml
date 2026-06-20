@@ -1,0 +1,15 @@
+[package]
+name = "main"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow.workspace = true
+tokio.workspace = true
+dotenv.workspace = true
+tokio-tungstenite.workspace = true
+polymarket.workspace = true
+strategy.workspace = true
+tracing.workspace = true
+tracing-subscriber.workspace = true
+tracing-appender.workspace = true
